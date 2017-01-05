@@ -4,7 +4,5 @@ node_modules/
 *.log
 *.zip
 # Ignore unused  files
-dir/*
-!dir/dirs/
-
-!.gitkeep
+images/*
+!images/readme.txt
