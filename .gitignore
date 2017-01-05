@@ -1,0 +1,11 @@
+﻿.idea/
+node_modules/
+分享到github版/
+备份/
+*.log
+*.zip
+images/
+picc/
+# Ignore unused  files
+dir/*
+!dir/dirs/
