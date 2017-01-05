@@ -6,3 +6,5 @@ node_modules/
 # Ignore unused  files
 dir/*
 !dir/dirs/
+
+!.gitkeep
