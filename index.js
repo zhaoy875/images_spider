@@ -13,9 +13,9 @@ const packagejson = require('./package.json');
 console.log("版本"+packagejson.version.cyan )
 // 测试站点 jandan.net/ooxx
 var urltxt    = 'http://jandan.net/ooxx/page-',
-    startpage = 361,//起始页
-    endpage   = 362;
-    sourcedir = 'picc'; //资源保存的根目录名
+    startpage = 350,//起始页
+    endpage   = 380,
+    sourcedir = 'images'; //资源保存的根目录名
     
 var picdir   = sourcedir + '/' +startpage + '_' + endpage + '/';
 var creatdir = './' + picdir;
