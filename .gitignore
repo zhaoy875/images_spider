@@ -4,5 +4,6 @@ node_modules/
 *.log
 *.zip
 # Ignore unused  files
+component/
 images/*
 !images/readme.txt
