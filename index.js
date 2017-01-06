@@ -22,7 +22,7 @@ var urltxt    = 'http://jandan.net/ooxx/page-',
 
 // --------------------------------------
 // 创建 图片保存目录
-// fs.mkdir 此处有待封装修改
+// fs.mkdir 这里有个隐患，直接使用 对已存在的文件夹创建时会报错，在不存在的一级目录下创建二级目录也会报错，待封装fs.mkdir后再修改
 // --------------------------------------
 fs.mkdir(creatdir, function(err) {
     if (err) {throw err};
